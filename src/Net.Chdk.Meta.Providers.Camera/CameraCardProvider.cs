@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Net.Chdk.Meta.Providers.Camera
 {
-    public sealed class CameraCardProvider<TCard> : SingleProductProvider<IProductCameraCardProvider<TCard>>, ICameraCardProvider<TCard>
+    sealed class CameraCardProvider<TCard> : SingleProductProvider<IProductCameraCardProvider<TCard>>, ICameraCardProvider<TCard>
         where TCard : CardData
     {
         public CameraCardProvider(IEnumerable<IProductCameraCardProvider<TCard>> innerProviders)
