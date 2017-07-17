@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Providers.Camera.NetCore", "Net.Chdk.Meta.Providers.Camera.NetCore.csproj", "{0157640F-CE68-439B-AFCE-75B74241ACCC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Meta.Providers.Camera.Shared", "..\Net.Chdk.Meta.Providers.Camera.Shared\Net.Chdk.Meta.Providers.Camera.Shared.shproj", "{43ED2135-4771-4BAA-BC3C-16F094ED7F44}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Net.Chdk.Meta.Providers.Camera.Shared\Net.Chdk.Meta.Providers.Camera.Shared.projitems*{43ed2135-4771-4baa-bc3c-16f094ed7f44}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0157640F-CE68-439B-AFCE-75B74241ACCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0157640F-CE68-439B-AFCE-75B74241ACCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0157640F-CE68-439B-AFCE-75B74241ACCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0157640F-CE68-439B-AFCE-75B74241ACCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
