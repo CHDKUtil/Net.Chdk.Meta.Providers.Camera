@@ -56,14 +56,10 @@
     <PackageReference Include="Net.Chdk.Meta.Writers.Camera.Ps.Json" Version="0.1.0-alpha" />
     <PackageReference Include="Net.Chdk.Meta.Writers.Camera.Ps.Props" Version="0.1.0-alpha" />
     <PackageReference Include="Net.Chdk.Providers.Boot" Version="0.3.1-alpha" />
-    <PackageReference Include="Net.Chdk.Providers.Category" Version="0.3.1-alpha" />
-    <PackageReference Include="Net.Chdk.Providers.Product" Version="0.3.1-alpha" />
+    <PackageReference Include="Net.Chdk.Providers.Product" Version="0.4.0-alpha" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Data\categories.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="Data\products.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

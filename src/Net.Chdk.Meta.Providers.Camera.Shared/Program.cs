@@ -32,7 +32,6 @@ using Net.Chdk.Meta.Writers.Camera.Ps;
 using Net.Chdk.Meta.Writers.Camera.Ps.Json;
 using Net.Chdk.Meta.Writers.Camera.Ps.Props;
 using Net.Chdk.Providers.Boot;
-using Net.Chdk.Providers.Category;
 using Net.Chdk.Providers.Product;
 using System;
 using System.Collections.Generic;
@@ -61,7 +60,6 @@ namespace Net.Chdk.Meta.Providers.Camera
             var serviceProvider = new ServiceCollection()
                 .AddLogging()
                 
-                .AddCategoryProvider()
                 .AddProductProvider()
                 .AddBootProvider()
 
