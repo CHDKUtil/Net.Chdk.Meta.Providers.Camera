@@ -10,9 +10,9 @@ namespace Net.Chdk.Meta.Providers.Camera
         {
         }
 
-        public EncodingData GetEncoding(uint version, string categoryName)
+        public EncodingData GetEncoding(string platform, uint version, string categoryName)
         {
-            return GetInnerProvider(categoryName).GetEncoding(version);
+            return GetInnerProvider(categoryName).GetEncoding(platform, version);
         }
     }
 }
