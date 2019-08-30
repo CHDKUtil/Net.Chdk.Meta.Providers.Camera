@@ -327,12 +327,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Data\Category\PS\boot.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Data\products.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="..\Net.Chdk.Meta.Providers.Camera.Shared\Net.Chdk.Meta.Providers.Camera.Shared.projitems" Label="Shared" />

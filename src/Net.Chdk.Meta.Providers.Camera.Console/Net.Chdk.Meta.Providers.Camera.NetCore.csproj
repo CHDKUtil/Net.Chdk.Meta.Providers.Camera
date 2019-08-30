@@ -59,12 +59,6 @@
     <PackageReference Include="Net.Chdk.Providers.Product" Version="0.4.0-alpha" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="Data\products.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
   <Import Project="..\Net.Chdk.Meta.Providers.Camera.Shared\Net.Chdk.Meta.Providers.Camera.Shared.projitems" Label="Shared" />
 
 </Project>
